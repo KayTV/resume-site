@@ -29,7 +29,7 @@ body {
 
 header img {
   width: 100%;
-  height: 95%;
+  height: 98%;
   -webkit-filter: grayscale(80%);
   filter: grayscale(80%);
   position: relative;
@@ -69,6 +69,7 @@ section h2 {
   text-shadow: 1px 1px white;
 }
 
+
 table td {
 	border: 1px #70b8ff dashed;
 }
@@ -87,14 +88,35 @@ tr td img {
 
 }
 
-/*.primary {
-  position: absolute;
-}*/
+.portfolio-item {
+  position: relative;
+  height: 275px;
+  width: 425px;
+}
 
-/*.secondary {
+.primary {
+  positionx: absolute;
+  top: 0;
+}
+
+.secondary {
   height: 250px;
   width: 400px;
   background-color: grey;
   position: absolute;
   opacity: 0;
-}*/
+  top: 77px;
+  transition: 1s;
+}
+
+.secondary:hover {
+  opacity: 1;
+  transition: 1s;
+}
+
+p {
+  text-align: center;
+  color: black;
+  font-family: arial;
+  padding: 10px;
+}
