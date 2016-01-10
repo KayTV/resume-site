@@ -85,7 +85,12 @@ tr td {
 tr td img {
   height: 250px;
   width: 400px;
+  margin: 5px;
+}
 
+td a {
+  font-size: 25px;
+  color: white;
 }
 
 .portfolio-item {
@@ -107,6 +112,7 @@ tr td img {
   opacity: 0;
   top: 77px;
   transition: 1s;
+  margin: 5px;
 }
 
 .secondary:hover {
