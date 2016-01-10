@@ -1,6 +1,10 @@
+body {
+  background-color: black;
+}
+
 .navbar {
     margin-bottom: 0;
-    background-color: #2d2d30;
+    background-color: black;
     border: 0;
     font-size: 20px !important;
     letter-spacing: 4px;
@@ -22,3 +26,75 @@
     color: #fff !important;
     background-color:#29292c !important;
 }
+
+header img {
+  width: 100%;
+  height: 95%;
+  -webkit-filter: grayscale(80%);
+  filter: grayscale(80%);
+  position: relative;
+}
+
+header h1 {
+  color: white;
+  font-family: arial;
+  text-align: center;
+  text-shadow: 2px 2px black;
+  position: absolute;
+  top: 200px;
+  left: 0;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 65px;
+}
+
+header h3 {
+  color: white;
+  font-family: arial;
+  text-align: center;
+  text-shadow: 2px 2px black;
+  position: absolute;
+  top: 300px;
+  left: 0;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 40px;
+}
+
+section h2 {
+  text-align: center;
+  font-family: arial;
+  color: grey;
+  font-size: 40px;
+  text-shadow: 1px 1px white;
+}
+
+table td {
+	border: 1px #70b8ff dashed;
+}
+
+tr td {
+  width: 220px;
+  text-align: center;
+  font-family: "arial";
+  color: white;
+  padding: 20px;
+}
+
+tr td img {
+  height: 250px;
+  width: 400px;
+
+}
+
+/*.primary {
+  position: absolute;
+}*/
+
+/*.secondary {
+  height: 250px;
+  width: 400px;
+  background-color: grey;
+  position: absolute;
+  opacity: 0;
+}*/
