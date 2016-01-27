@@ -28,7 +28,7 @@ body {
 }
 
 header{
-    background: url("https://upload.wikimedia.org/wikipedia/commons/9/94/Starry_Night_Over_the_Rhone.jpg") no-repeat top center fixed;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/9/94/Starry_Night_Over_the_Rhone.jpg");
     background-size: cover;
     margin: 0;
     padding: 0;
@@ -124,7 +124,7 @@ td a {
   transition: 1s;
 }
 
-tr td p {
+p {
   text-align: center;
   color: black;
   font-family: arial;
