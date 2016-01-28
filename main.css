@@ -72,9 +72,9 @@ section h2 {
 }
 
 
-table td {
+/*table td {
 	border: 1px #70b8ff dashed;
-}
+}*/
 
 tr td {
   width: 220px;
@@ -139,4 +139,30 @@ footer p {
   color: white;
   font-family: arial;
   padding: 5px;
+}
+
+.about_me_p {
+  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 17px;
+  text-align: center;
+}
+
+.about_me_img {
+  height: 30%;
+  width: 80%;
+  border-radius: 10px;
+
+}
+
+.toolbelt {
+  height: 40%;
+  width: 70%;
+}
+
+.toolbelt_text {
+  color: white;
+  font-size: 20px;
+  text-align: center;
 }
