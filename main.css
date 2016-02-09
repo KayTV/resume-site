@@ -76,48 +76,44 @@ section h2 {
 	border: 1px #70b8ff dashed;
 }*/
 
-tr td {
-  width: 220px;
+.project-fonts {
   text-align: center;
   font-family: "arial";
   color: white;
-  padding: 20px;
 }
 
-tr td img {
-  height: 230px;
-  width: 360px;
-  margin: 5px;
+.projects {
+  height: 55%;
+  margin: 10px;
 }
 
-td a {
+.project-links {
   font-size: 25px;
   color: white;
 }
 
 .portfolio-item {
   position: relative;
-  height: 275px;
-  width: 425px;
+  height: 55%;
 }
 
 .primary {
   positionx: absolute;
-  top: 0;
+  top: 0px;
   border-radius: 5px;
 }
 
 .secondary {
-  height: 230px;
-  width: 360px;
+  height: 55%;
+  width: 91%;
   background-color: grey;
   position: absolute;
   opacity: 0;
-  top: 77px;
+  top: 67px;
   transition: 1s;
-  margin: 5px;
+  margin-left: 10px;
+  padding: 10px;
   border-radius: 5px;
-  margin-left: 12px;
 }
 
 .secondary:hover {
@@ -125,12 +121,11 @@ td a {
   transition: 1s;
 }
 
-td p {
+.project-info {
   text-align: center;
   color: black;
   font-family: arial;
   padding: 20px;
-  padding-top: 60px;
   font-size: 20px;
 }
 
