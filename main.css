@@ -1,5 +1,9 @@
 body {
   background-color: black;
+  font-family: "arial";
+  text-align: center;
+  color: white;
+  font-size: 20px;
 }
 
 .navbar {
@@ -40,9 +44,6 @@ header{
 }
 
 .headername {
-  color: white;
-  font-family: arial;
-  text-align: center;
   text-shadow: 2px 2px grey;
   top: 200px;
   left: 0;
@@ -52,9 +53,6 @@ header{
 }
 
 .headertitle {
-  color: white;
-  font-family: arial;
-  text-align: center;
   text-shadow: 2px 2px grey;
   top: 300px;
   left: 0;
@@ -63,90 +61,13 @@ header{
   padding-bottom: 20px;
 }
 
-section h2 {
-  text-align: center;
-  font-family: arial;
-  color: grey;
-  font-size: 40px;
-  text-shadow: 1px 1px white;
-}
-
-
-/*table td {
-	border: 1px #70b8ff dashed;
-}*/
-
-.project-fonts {
-  text-align: center;
-  font-family: "arial";
-  color: white;
-}
-
-.projects {
-  height: 55%;
-  margin: 10px;
-}
-
-.project-links {
-  font-size: 25px;
-  color: white;
-}
-
-.portfolio-item {
-  position: relative;
-  height: 400px;
-}
-
-.primary {
-  positionx: absolute;
-  top: 0px;
-  border-radius: 5px;
-}
-
-.secondary {
-  height: 55%;
-  /*width: 75%;*/
-  background-color: grey;
-  position: absolute;
-  opacity: 0;
-  top: 67px;
-  transition: 1s;
-  margin-left: 10px;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-.secondary:hover {
-  opacity: .9;
-  transition: 1s;
-}
-
-.project-info {
-  text-align: center;
-  color: black;
-  font-family: arial;
-  padding: 20px;
-  font-size: 20px;
-}
-
-footer p {
-  text-align: center;
-  color: white;
-  font-family: arial;
-  padding: 5px;
-}
-
 .about_me_p {
-  color: white;
   padding-left: 50px;
   padding-right: 50px;
-  font-size: 17px;
-  text-align: center;
 }
 
 .about_me_img {
-  height: 30%;
-  width: 80%;
+  height: 35%;
   border-radius: 10px;
 
 }
@@ -156,8 +77,50 @@ footer p {
   width: 70%;
 }
 
-.toolbelt_text {
+section h2 {
+  color: grey;
+  font-size: 40px;
+  text-shadow: 1px 1px white;
+}
+
+.project-links {
+  font-size: 25px;
   color: white;
-  font-size: 20px;
-  text-align: center;
+}
+
+.portfolio-item {
+  position: relative;
+  height: 200px;
+  width: 365px;
+}
+
+.primary {
+  position: absolute;
+  height: inherit;
+  top: 0px;
+  left: 0px;
+  border-radius: 5px;
+}
+
+.secondary {
+  height: inherit;
+  width: inherit;
+  background-color: grey;
+  position: absolute;
+  opacity: 0;
+  top: 0px;
+  left: 0px;
+  transition: 1s;
+  border-radius: 5px;
+  color: black;
+}
+
+.secondary:hover {
+  opacity: .9;
+  transition: 1s;
+}
+
+footer p {
+  font-size: 15px;
+  padding: 5px;
 }
